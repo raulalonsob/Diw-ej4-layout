@@ -2,27 +2,24 @@
     margin: 0%;
     padding: 0%;
 }
-header, aside, main, footer {
-    border: 1px solid black;
-    margin: 1%;
-}
+
 #container{
-    border: solid 1px red;
+   background-color: rgba(142, 248, 248, 0.623);
    height: 99%;
    width: 99%;
-    position: absolute;
+   position: absolute;
 }
 header{
     height: 5%;
-    text-align: center;
-    padding: 5%;
+    padding: 3%;
     
 }
 aside{
     float:  left;
     width: 27%;
     height: 23%;
-    overflow : auto; 
+    overflow : auto;
+    margin: 1%; 
     
 
 }
@@ -31,7 +28,6 @@ main{
     float: right;
     width: 66%;
     height: 71%;
-    padding: 1%;
     
 }
 footer{
@@ -40,12 +36,28 @@ footer{
     text-align: center;
     height: 40px;
     width: 100%;
-    background-color: aqua;
+    
 }
 section{
     margin: 1%;
     float: left;
     height: 25%;
     width: 30%;
-    border: 1px solid black;
+    min-width: 50px;
+    max-width: 300px;    
+}
+#pie1{
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+#pie2{
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+#pie3{
+    float: left;
+    text-align: center;
+    width: 33%;
 }
